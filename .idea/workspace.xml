@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14b6e845-7432-4562-b04a-a04eed165d55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/MyApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/Sale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/iface/SalesInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/iface/SalesReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/iface/ShippingPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/sales.txt" afterDir="false" />
+    <list default="true" id="14b6e845-7432-4562-b04a-a04eed165d55" name="Changes" comment="-Created fields for the Product and Sale classes with setters and toString()">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/Sale.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,7 +40,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/josue/Documents/WCTC_Courses/distributed-java-23/salesreport"
+    "last_opened_file_path": "/Users/josue/Documents/WCTC_Courses/distributed-java-23/salesreport",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "spring.configuration.checksum": "f22b54aa5ffd263597ebdef37a4854fa",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -66,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676523139465</updated>
       <workItem from="1676523141031" duration="242000" />
+      <workItem from="1676576253439" duration="3391000" />
     </task>
     <servers />
   </component>
@@ -82,5 +82,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-Created fields for the Product and Sale classes with setters and toString()" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Created fields for the Product and Sale classes with setters and toString()" />
   </component>
 </project>
