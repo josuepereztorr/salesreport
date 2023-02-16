@@ -1,2 +1,4 @@
-package edu.wctc;public class Sale {
+package edu.wctc;
+
+public class Sale {
 }
