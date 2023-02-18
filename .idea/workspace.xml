@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14b6e845-7432-4562-b04a-a04eed165d55" name="Changes" comment="-Created fields for the Product and Sale classes with setters and toString()">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/entities/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/SalesReportTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/ConsoleInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/DetailReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/FileInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/FlatRateDomesticShipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/FreeShipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/SummaryReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/Sale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/sales.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/sales.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +47,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/josue/Documents/WCTC_Courses/distributed-java-23/salesreport",
     "node.js.detected.package.eslint": "true",

@@ -7,33 +7,41 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Sale {
-    private String firstName;
-    private String lastName;
+    private String customerName;
     private String country;
-    private final List<Product> products = new ArrayList<>();
+    private Integer totalAmount;
+    private Integer tax;
+    private Integer shippingCost;
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
     }
 
     public void setCountry(String country) {
         this.country = country;
     }
 
-    public void addProduct(Product product) {
-        products.add(product);
+    public void setTotalAmount(Integer totalAmount) {
+        this.totalAmount = totalAmount;
     }
 
-    private final String[] saleToStringArray() {
-        return new String[] {firstName, lastName, country};
+    public void setTax(Integer tax) {
+        this.tax = tax;
+    }
+
+    public void setShippingCost(Integer shippingCost) {
+        this.shippingCost = shippingCost;
     }
 
     @Override
     public String toString() {
-        return StringUtils.arrayToCommaDelimitedString(saleToStringArray());
+        return StringUtils.arrayToCommaDelimitedString(
+                new String[] {
+                        customerName,
+                        country,
+                        totalAmount.toString(),
+                        tax.toString(),
+                        shippingCost.toString()
+                });
     }
 }
