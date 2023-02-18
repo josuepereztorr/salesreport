@@ -4,15 +4,12 @@ import edu.wctc.Sale;
 import edu.wctc.iface.SalesInput;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class FileInput implements SalesInput {
+public class FileReader implements SalesInput {
     @Override
     public List<Sale> getSales() {
         File file = new File("sales.txt");

@@ -1,14 +1,11 @@
 package edu.wctc.impl;
 
-import edu.wctc.Sale;
-import edu.wctc.iface.SalesInput;
-import edu.wctc.iface.SalesReportInput;
+import edu.wctc.iface.SystemInput;
 
-import java.util.List;
 import java.util.Scanner;
 
-public class ConsoleInput implements SalesReportInput {
-    private Scanner scanner = new Scanner(System.in);
+public class ConsoleInput implements SystemInput {
+    private final Scanner scanner = new Scanner(System.in);
 
     @Override
     public String getInput(String prompt) {

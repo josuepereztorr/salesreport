@@ -1,5 +1,5 @@
 package edu.wctc.iface;
 
-public interface SalesReportOutput {
+public interface SystemOutput {
     void output(String text);
 }

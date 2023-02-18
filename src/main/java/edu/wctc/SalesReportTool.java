@@ -10,16 +10,16 @@ import java.util.List;
 @Component()
 public class SalesReportTool
 {
-    private SalesReportInput in;
-    private SalesReportOutput out;
-    private SalesInput salesInput;
-    private SalesReport salesReport;
-    private ShippingPolicy shippingPolicy;
+    private final SystemInput in;
+    private final SystemOutput out;
+    private final SalesInput salesInput;
+    private final SalesReport salesReport;
+    private final ShippingPolicy shippingPolicy;
 
-    private List<Sale> allSales = new ArrayList<>();
+    private final List<Sale> allSales = new ArrayList<>();
 
     @Autowired
-    public SalesReportTool(SalesReportInput in, SalesReportOutput out,
+    public SalesReportTool(SystemInput in, SystemOutput out,
                            SalesInput input,
                            SalesReport report,
                            ShippingPolicy shippingPolicy) {
@@ -31,9 +31,10 @@ public class SalesReportTool
     }
 
     public void run() {
+        out.output("");
         out.output("SALES REPORT TOOL V1.0 - Program started");
         out.output("");
-        out.output(getSales().toString());
+        System.out.println(getSales().toString());
     }
 
     public void generateReport() {

@@ -10,17 +10,17 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan("edu.wctc")
 public class AppConfig {
     @Bean
-    public SalesReportInput input() {
+    public SystemInput input() {
         return new ConsoleInput();
     }
 
     @Bean
-    public SalesReportOutput output() {
+    public SystemOutput output() {
         return new ConsoleOutput();
     }
     @Bean
     public SalesInput salesInput() {
-        return new FileInput();
+        return new FileReader();
     }
 
     @Bean

@@ -1,7 +1,5 @@
 package edu.wctc;
 
-import edu.wctc.iface.SalesReportOutput;
-import edu.wctc.impl.ConsoleOutput;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class MyApp {

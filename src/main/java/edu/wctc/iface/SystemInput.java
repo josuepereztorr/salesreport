@@ -1,5 +1,5 @@
 package edu.wctc.iface;
 
-public interface SalesReportInput {
+public interface SystemInput {
     String getInput(String prompt);
 }

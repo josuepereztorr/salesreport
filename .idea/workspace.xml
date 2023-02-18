@@ -4,24 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14b6e845-7432-4562-b04a-a04eed165d55" name="Changes" comment="Added implementations">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/iface/SalesReportInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/iface/SalesReportOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/ConsoleOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/SystemInput.java" afterDir="false" />
+    <list default="true" id="14b6e845-7432-4562-b04a-a04eed165d55" name="Changes" comment="Added two interfaces for system input and output">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/SystemInput_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/MyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/MyApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/Sale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/SalesReportTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/SalesReportTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/entities/Product.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/ConsoleInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/ConsoleInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/FileInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/FileInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/SystemInput.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,7 +56,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "editor.preferences.import",
     "spring.configuration.checksum": "f22b54aa5ffd263597ebdef37a4854fa",
     "vue.rearranger.settings.migration": "true"
   }
@@ -116,6 +115,14 @@
       <workItem from="1676684789973" duration="1748000" />
       <workItem from="1676743194399" duration="4631000" />
     </task>
+    <task id="LOCAL-00001" summary="Added two interfaces for system input and output">
+      <created>1676761540616</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676761540616</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +141,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="-Created fields for the Product and Sale classes with setters and toString()" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Created fields for the Product and Sale classes with setters and toString()" />
+    <MESSAGE value="Added two interfaces for system input and output" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added two interfaces for system input and output" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
