@@ -1,10 +1,6 @@
 package edu.wctc;
 
-import edu.wctc.entities.Product;
 import org.springframework.util.StringUtils;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class Sale {
     private String customerName;
@@ -12,6 +8,17 @@ public class Sale {
     private Double totalAmount;
     private Double tax;
     private Double shippingCost;
+
+    public Sale(String customerName, String country, Double totalAmount, Double tax, Double shippingCost) {
+        this.customerName = customerName;
+        this.country = country;
+        this.totalAmount = totalAmount;
+        this.tax = tax;
+        this.shippingCost = shippingCost;
+    }
+
+    public Sale() {
+    }
 
     public void setCustomerName(String customerName) {
         this.customerName = customerName;

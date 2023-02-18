@@ -1,37 +1,46 @@
 package edu.wctc;
 
-import edu.wctc.iface.SalesInput;
-import edu.wctc.iface.SalesReport;
-import edu.wctc.iface.ShippingPolicy;
+import edu.wctc.iface.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Component
+@Component()
 public class SalesReportTool
 {
-    private SalesInput input;
-    private SalesReport report;
+    private SalesReportInput in;
+    private SalesReportOutput out;
+    private SalesInput salesInput;
+    private SalesReport salesReport;
     private ShippingPolicy shippingPolicy;
 
     private List<Sale> allSales = new ArrayList<>();
 
     @Autowired
-    public SalesReportTool(SalesInput input, SalesReport report,
+    public SalesReportTool(SalesReportInput in, SalesReportOutput out,
+                           SalesInput input,
+                           SalesReport report,
                            ShippingPolicy shippingPolicy) {
-        this.input = input;
-        this.report = report;
+        this.in = in;
+        this.out = out;
+        this.salesInput = input;
+        this.salesReport = report;
         this.shippingPolicy = shippingPolicy;
-        System.out.println("SALES REPORT TOOL V1");
     }
 
-    private void run() {}
-
-    private void stop() {}
+    public void run() {
+        out.output("SALES REPORT TOOL V1.0 - Program started");
+        out.output("");
+        out.output(getSales().toString());
+    }
 
     public void generateReport() {
-
     }
+
+    private List<Sale> getSales() {
+        return salesInput.getSales();
+    }
+
 }

@@ -1,7 +1,7 @@
 package edu.wctc;
 
-import edu.wctc.iface.SalesInput;
-import edu.wctc.impl.FileInput;
+import edu.wctc.iface.SalesReportOutput;
+import edu.wctc.impl.ConsoleOutput;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class MyApp {
@@ -12,7 +12,7 @@ public class MyApp {
         context.refresh();
 
         // start the reporting software
-        SalesInput salesInput = (SalesInput) context.getBean(SalesInput.class);
-        salesInput.getSales();
+        context.getBean(
+                SalesReportTool.class).run();
     }
 }
