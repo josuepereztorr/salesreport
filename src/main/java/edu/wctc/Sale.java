@@ -9,9 +9,9 @@ import java.util.List;
 public class Sale {
     private String customerName;
     private String country;
-    private Integer totalAmount;
-    private Integer tax;
-    private Integer shippingCost;
+    private Double totalAmount;
+    private Double tax;
+    private Double shippingCost;
 
     public void setCustomerName(String customerName) {
         this.customerName = customerName;
@@ -21,15 +21,15 @@ public class Sale {
         this.country = country;
     }
 
-    public void setTotalAmount(Integer totalAmount) {
+    public void setTotalAmount(Double totalAmount) {
         this.totalAmount = totalAmount;
     }
 
-    public void setTax(Integer tax) {
+    public void setTax(Double tax) {
         this.tax = tax;
     }
 
-    public void setShippingCost(Integer shippingCost) {
+    public void setShippingCost(Double shippingCost) {
         this.shippingCost = shippingCost;
     }
 
