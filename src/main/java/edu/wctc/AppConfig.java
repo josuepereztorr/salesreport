@@ -21,8 +21,8 @@ public class AppConfig {
     }
     @Bean
     public SalesInput salesInput() {
-//        return new ConsoleReader(input(), output());
-        return new FileReader();
+        return new ConsoleReader(input(), output());
+//        return new FileReader();
     }
 
     @Bean
@@ -32,6 +32,6 @@ public class AppConfig {
 
     @Bean
     public ShippingPolicy shippingPolicy() {
-        return new FreeShipping();
+        return new GroundShipping();
     }
 }

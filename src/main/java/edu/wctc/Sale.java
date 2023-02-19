@@ -40,6 +40,10 @@ public class Sale {
         this.shippingCost = shippingCost;
     }
 
+    public Double getTotalAmount() {
+        return totalAmount;
+    }
+
     @Override
     public String toString() {
         return StringUtils.arrayToCommaDelimitedString(

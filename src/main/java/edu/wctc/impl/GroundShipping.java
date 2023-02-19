@@ -3,9 +3,9 @@ package edu.wctc.impl;
 import edu.wctc.Sale;
 import edu.wctc.iface.ShippingPolicy;
 
-public class FlatRateDomesticShipping implements ShippingPolicy {
+public class GroundShipping implements ShippingPolicy {
     @Override
     public void applyShipping(Sale sale) {
-        sale.setShippingCost(14.99);
+        sale.setShippingCost(29.99);
     }
 }
