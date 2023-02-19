@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan("edu.wctc")
 public class AppConfig {
+
     @Bean
     public SystemInput input() {
         return new ConsoleInput();
@@ -20,6 +21,7 @@ public class AppConfig {
     }
     @Bean
     public SalesInput salesInput() {
+//        return new ConsoleReader(input(), output());
         return new FileReader();
     }
 
