@@ -21,11 +21,6 @@ public class AppConfig {
     }
 
     @Bean
-    public SystemFormattedOutput fOutput() {
-        return new ConsoleFormatOutput();
-    }
-
-    @Bean
     public SalesInput salesInput() {
         return new ConsoleReader(input(), output());
 //        return new FileReader();
@@ -33,11 +28,11 @@ public class AppConfig {
 
     @Bean
     public SalesReport salesReport() {
-        return new SummaryReport(fOutput());
+        return new DetailReport(output());
     }
 
     @Bean
     public ShippingPolicy shippingPolicy() {
-        return new FlatRateDomesticShipping();
+        return new GroundShipping();
     }
 }

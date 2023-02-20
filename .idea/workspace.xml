@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14b6e845-7432-4562-b04a-a04eed165d55" name="Changes" comment="-created ShippingPolicy implementations">
+    <list default="true" id="14b6e845-7432-4562-b04a-a04eed165d55" name="Changes" comment="-Completed the SummaryReport and Detailed Report">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sales.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sales.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/Sale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/ConsoleReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/ConsoleReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/iface/SystemFormattedOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/iface/SystemOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/iface/SystemOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/ConsoleFormatOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/ConsoleOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/ConsoleOutput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/DetailReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/DetailReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/FileReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/SummaryReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/SummaryReport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676845067930</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="-Completed the SummaryReport and Detailed Report">
+      <created>1676869241152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676869241153</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +165,8 @@
     <MESSAGE value="Added two interfaces for system input and output" />
     <MESSAGE value="Renamed files" />
     <MESSAGE value="-created ShippingPolicy implementations" />
-    <option name="LAST_COMMIT_MESSAGE" value="-created ShippingPolicy implementations" />
+    <MESSAGE value="-Completed the SummaryReport and Detailed Report" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Completed the SummaryReport and Detailed Report" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
