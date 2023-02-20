@@ -40,6 +40,22 @@ public class Sale {
         this.shippingCost = shippingCost;
     }
 
+    public String getCustomerName() {
+        return customerName;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public Double getTax() {
+        return tax;
+    }
+
+    public Double getShippingCost() {
+        return shippingCost;
+    }
+
     public Double getTotalAmount() {
         return totalAmount;
     }

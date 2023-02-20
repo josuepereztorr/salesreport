@@ -19,15 +19,21 @@ public class AppConfig {
     public SystemOutput output() {
         return new ConsoleOutput();
     }
+
+    @Bean
+    public SystemFormattedOutput fOutput() {
+        return new ConsoleFormatOutput();
+    }
+
     @Bean
     public SalesInput salesInput() {
-        return new ConsoleReader(input(), output());
-//        return new FileReader();
+//        return new ConsoleReader(input(), output());
+        return new FileReader();
     }
 
     @Bean
     public SalesReport salesReport() {
-        return new DetailReport();
+        return new DetailReport(fOutput());
     }
 
     @Bean
