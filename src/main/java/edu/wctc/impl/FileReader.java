@@ -22,8 +22,7 @@ public class FileReader implements SalesInput {
                         saleStr[0],
                         saleStr[1],
                         StringToDouble(saleStr[2]),
-                        StringToDouble(saleStr[3]),
-                        StringToDouble(saleStr[4])
+                        StringToDouble(saleStr[3])
                 );
                 sales.add(sale);
             }

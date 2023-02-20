@@ -27,17 +27,17 @@ public class AppConfig {
 
     @Bean
     public SalesInput salesInput() {
-//        return new ConsoleReader(input(), output());
-        return new FileReader();
+        return new ConsoleReader(input(), output());
+//        return new FileReader();
     }
 
     @Bean
     public SalesReport salesReport() {
-        return new DetailReport(fOutput());
+        return new SummaryReport(fOutput());
     }
 
     @Bean
     public ShippingPolicy shippingPolicy() {
-        return new GroundShipping();
+        return new FlatRateDomesticShipping();
     }
 }

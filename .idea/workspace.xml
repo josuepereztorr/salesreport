@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14b6e845-7432-4562-b04a-a04eed165d55" name="Changes" comment="-created ShippingPolicy implementations">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/iface/SystemFormattedOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/ConsoleFormatOutput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sales.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sales.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/Sale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/SalesReportTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/SalesReportTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/ConsoleReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/ConsoleReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/DetailReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/DetailReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/FileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/SummaryReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wctc/impl/SummaryReport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +159,17 @@
     <MESSAGE value="Renamed files" />
     <MESSAGE value="-created ShippingPolicy implementations" />
     <option name="LAST_COMMIT_MESSAGE" value="-created ShippingPolicy implementations" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/wctc/SalesReportTool.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

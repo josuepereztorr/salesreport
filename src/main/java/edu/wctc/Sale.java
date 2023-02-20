@@ -9,12 +9,11 @@ public class Sale {
     private Double tax;
     private Double shippingCost;
 
-    public Sale(String customerName, String country, Double totalAmount, Double tax, Double shippingCost) {
+    public Sale(String customerName, String country, Double totalAmount, Double tax) {
         this.customerName = customerName;
         this.country = country;
         this.totalAmount = totalAmount;
         this.tax = tax;
-        this.shippingCost = shippingCost;
     }
 
     public Sale() {

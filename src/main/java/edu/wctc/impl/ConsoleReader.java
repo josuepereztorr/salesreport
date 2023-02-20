@@ -35,8 +35,6 @@ public class ConsoleReader implements SalesInput {
             sale.setTotalAmount(totalAmount);
             Double tax = Double.valueOf(in.getInput("Enter the tax amount: "));
             sale.setTax(tax);
-            Double shippingCost = Double.valueOf(in.getInput("Enter the shippingCost: "));
-            sale.setShippingCost(shippingCost);
             sales.add(sale);
             out.output("");
 
